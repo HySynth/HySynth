@@ -1,0 +1,2 @@
+class SetRep(object):
+    pass

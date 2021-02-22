@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+networkx
+scikit-learn
+matplotlib
+more_itertools
+pytest
+shapely
+visilibity
+cython
+cvxopt
+cysignals
+gmpy2==2.1.0a4
+pplpy
+julia
