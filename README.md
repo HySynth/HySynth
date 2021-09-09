@@ -55,16 +55,20 @@ This section summarizes the installation instructions.
 * Julia (we used v1.5.3)
   This is only needed for the `pwld` algorithm.
   Make sure `julia` is available in your PATH, e.g., by adding the following to
-  `~/.profile` and logging off and on:
+  `~/.profile` and logging out and in:
 
-    PATH=$PATH:$HOME/PATH_TO_JULIA/bin"
+  ```
+  PATH=$PATH:$HOME/PATH_TO_JULIA/bin
+  ```
 
   If the installer warns about a statically linked Python interpreter, Julia
   executions will become terribly slow.
   We strongly recommend using one of the workarounds suggested in the given
   troubleshooting link in this case, for example `python-jl`:
 
-    PYTHONPATH=$PYTHONPATH:$PWD python-jl examples/SCRIPT.py
+  ```
+  PYTHONPATH=$PYTHONPATH:$PWD python-jl examples/SCRIPT.py
+  ```
 
 * Z3
   This is only needed for a `pwl` algorithm that use an SMT solver.
@@ -160,3 +164,5 @@ Proceedings of the 31st International Conference on Computer Aided Verification
 *Synthesis of Hybrid Automata with Affine Dynamics from Time-Series Data*.
 Proceedings of the 24th International Conference on Hybrid Systems: Computation
 and Control (HSCC) 2021.
+[DOI](https://doi.org/10.1145/3447928.3456704).
+[PDF](https://research-explorer.app.ist.ac.at/record/9200).
