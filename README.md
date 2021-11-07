@@ -159,6 +159,26 @@ Proceedings of the 31st International Conference on Computer Aided Verification
 [DOI](https://doi.org/10.1007/978-3-030-25540-4_16).
 [PDF](https://research-explorer.app.ist.ac.at/record/6493).
 
+```bibtex
+@inproceedings{GarciaHSZ19,
+  author    = {Miriam Garc{\'{\i}}a Soto and
+               Thomas A. Henzinger and
+               Christian Schilling and
+               Luka Zeleznik},
+  editor    = {Isil Dillig and
+               Serdar Tasiran},
+  title     = {Membership-Based Synthesis of Linear Hybrid Automata},
+  booktitle = {{CAV}},
+  series    = {LNCS},
+  volume    = {11561},
+  pages     = {297--314},
+  publisher = {Springer},
+  year      = {2019},
+  url       = {https://doi.org/10.1007/978-3-030-25540-4\_16},
+  doi       = {10.1007/978-3-030-25540-4\_16}
+}
+```
+
 
 [2] Miriam García Soto, Thomas A. Henzinger, and Christian Schilling:
 *Synthesis of Hybrid Automata with Affine Dynamics from Time-Series Data*.
@@ -166,3 +186,21 @@ Proceedings of the 24th International Conference on Hybrid Systems: Computation
 and Control (HSCC) 2021.
 [DOI](https://doi.org/10.1145/3447928.3456704).
 [PDF](https://research-explorer.app.ist.ac.at/record/9200).
+
+```bibtex
+@inproceedings{GarciaHS21,
+  author    = {Miriam Garc{\'{\i}}a Soto and
+               Thomas A. Henzinger and
+               Christian Schilling},
+  editor    = {Sergiy Bogomolov and
+               Rapha{\"{e}}l M. Jungers},
+  title     = {Synthesis of hybrid automata with affine dynamics from time-series
+               data},
+  booktitle = {{HSCC}},
+  pages     = {2:1--2:11},
+  publisher = {{ACM}},
+  year      = {2021},
+  url       = {https://doi.org/10.1145/3447928.3456704},
+  doi       = {10.1145/3447928.3456704}
+}
+```
