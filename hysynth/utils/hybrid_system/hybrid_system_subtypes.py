@@ -1,4 +1,4 @@
-from collections import MutableMapping
+from collections.abc import MutableMapping
 from collections.abc import Iterable
 from copy import deepcopy
 import scipy.spatial as spt
