@@ -11,6 +11,6 @@ visilibity
 cython
 cvxopt
 cysignals
-gmpy2==2.1.0a4
+gmpy2>=2.1.0a4
 pplpy
 julia
