@@ -16,7 +16,7 @@ from hysynth.pwl.initial_inference import lib as init_lib
 
 def infer_hybrid_system_polyhedral_pwl(pwl_points_list, delta_ha, delta_fh,
                                        epsilon_meanshift=False, hybrid_system_name=None,
-                                       pwl_slopes=None, only_consider_first_piece=True):
+                                       pwl_slopes=None, only_consider_first_piece=False):
     """ This function is the initial hybrid system inference function """
 
     # some safety and integrity checks since this is the outer interface function
